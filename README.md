@@ -20,6 +20,15 @@ This website was built to reflect who I am as an aspiring engineer. It includes:
 - **CSS3**
 - **JavaScript** (for interactivity, if added)
 - **Font Awesome** (for icons)
+  ## 📷 Preview
+
+## 📷 Website Previews
+
+![Preview 1](preview/preview1.png)  
+![Preview 2](preview/preview2.png)  
+![Preview 3](preview/preview3.png)
+
+
 
 ## 📁 Folder Structure
 portfolio/
