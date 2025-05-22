@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+     overflow-x: hidden;
 
 }
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -43,9 +45,16 @@ body {
 }
 .navbar ul {
     display: flex;
+    flex-wrap: wrap; /* Allows breaking into multiple lines */
     justify-content: center;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    gap: 10px; /* spacing between items */
 }
+@media (max-width: 768px) {
+
 .navbar ul li {
     margin: 0 15px;
 }
@@ -58,6 +67,7 @@ body {
 }
 .navbar ul li a:hover {
     color: #ff9e00;
+}
 }
 /* Ensure the container uses flexbox */
 .home {
@@ -436,6 +446,7 @@ html, body {
     padding: 20px;
     box-sizing: border-box;
 }
+
 
 /* Allow .shadow-box to take full width of its flex container */
 .shadow-box {
