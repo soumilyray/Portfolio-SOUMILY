@@ -302,12 +302,14 @@ html, body {
 
 
 /* Education Section */
+@media (max-width: 768px) {
 .education {
    background-color:  #02101eb1;
     padding: 50px 0;
     text-align: center;
     margin: 20px 0; 
     
+}
 }
 
 .shadow-box {
@@ -448,6 +450,7 @@ html, body {
 }
 
 /* Full width sections */
+@media (max-width: 768px) {
 .about,
 .education,
 .projects,.skill,
@@ -458,6 +461,7 @@ html, body {
     
     margin: 40px 0;
     width: 100%;
+}
 }
 
 /* Central container for responsive content */
