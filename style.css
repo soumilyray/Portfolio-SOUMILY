@@ -41,6 +41,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    overflow-x: auto;
 }
 .navbar ul {
     display: flex;
